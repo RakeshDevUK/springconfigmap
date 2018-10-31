@@ -1,0 +1,7 @@
+A simple Java SpringBoot POST REST service that echos its body
+
+mvn clean install
+sudo docker build -t restspring .
+sudo docker run -d -p  5002:8080 restspring
+./curltest
+sodo docker stats
